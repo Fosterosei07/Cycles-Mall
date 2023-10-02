@@ -11,9 +11,9 @@ const app = express()
 //     res.send('its Working')
 // })
 
-// app.get("/home", (req, res) => {
-//     res.send('GOD IS WORKING')
-// })
+app.get("/home", (req, res) => {
+    res.send('GOD IS WORKING')
+})
 
 app.get("/register", (req, res) => {
     res.send('GOD IS GREAT')
